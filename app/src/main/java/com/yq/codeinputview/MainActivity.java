@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements CodeInputView.IPa
     private void initView(){
         ButterKnife.bind(this);
         codeInputView.setListener(this);
+        codeInputView.setBackgroundImage(getResources().getDrawable(R.drawable.code));
     }
 
     @Override
